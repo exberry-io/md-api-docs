@@ -1,6 +1,6 @@
 # Auction Indicative Equilibrium Price
 
-auctionIndicativeEP
+## auctionIndicativeEP
 
 This API provides close to real-time updates for auction indicative equilibrium price.&#x20;
 
@@ -23,8 +23,6 @@ Similar to [this](https://docs.exberry.io/ws/market-data#auction-indicative-equi
 
 
 ### **Error Codes**
-
-<table><thead><tr><th width="150">Code</th><th width="554.4285714285713">Message</th></tr></thead><tbody><tr><td>1</td><td>System is unavailable</td></tr><tr><td>2</td><td>Missing fields: [Fieldname] |<br><mark style="color:blue;">(NEW v1.52.0)</mark> Stream disconnected</td></tr><tr><td>3</td><td>Wrong interval | Wrong symbol [symbol] </td></tr></tbody></table>
 
 ### **Samples**
 

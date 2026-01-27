@@ -24,8 +24,6 @@ qualifier: v1/exchange.marketdata/partialOrderBook
 
 ### **Error Codes**
 
-<table><thead><tr><th width="150">Code</th><th width="554.4285714285713">Message</th></tr></thead><tbody><tr><td>1</td><td>System is unavailable</td></tr><tr><td>2</td><td>Missing fields: [Fieldname] |<br><mark style="color:blue;">(NEW v1.52.0)</mark> Stream disconnected</td></tr><tr><td>3</td><td>Wrong levels |<br>Wrong interval |<br>Wrong symbol [symbol] |<br>Wrong decimals</td></tr><tr><td>100</td><td>Your connection is slow, please reduce data consumed</td></tr></tbody></table>
-
 
 
 ### **Samples**
