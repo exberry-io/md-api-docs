@@ -24,7 +24,7 @@ Similar to [this](https://documenter.getpostman.com/view/6229811/TzCV3jcq#701e35
 
 ### **Error Codes**
 
-<table><thead><tr><th width="150">Code</th><th width="554.4285714285713">Message</th></tr></thead><tbody><tr><td>1</td><td>System is unavailable</td></tr></tbody></table>
+<table><thead><tr><th width="150">Code</th><th width="554.4285714285713">Message</th></tr></thead><tbody><tr><td>1</td><td>System is unavailable</td></tr><tr><td><mark style="color:blue;">(NEW v1.52.0)</mark><br>2</td><td>Stream disconnected</td></tr></tbody></table>
 
 
 

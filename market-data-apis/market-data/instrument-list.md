@@ -53,7 +53,7 @@ Similar to [this](https://documenter.getpostman.com/view/6229811/TzCV3jcq#c1b237
 
 ### **Error Codes**
 
-<table><thead><tr><th width="165.27803690934905">Code</th><th width="554.4285714285713">Message</th></tr></thead><tbody><tr><td>1</td><td>System is unavailable</td></tr><tr><td>100</td><td>Missing or invalid parameter: [FieldName]</td></tr><tr><td>102</td><td>Single category should be sent</td></tr><tr><td>102</td><td>Wrong Sub Category</td></tr><tr><td>102</td><td>Strategies category should be sent</td></tr></tbody></table>
+<table><thead><tr><th width="165.27803690934905">Code</th><th width="554.4285714285713">Message</th></tr></thead><tbody><tr><td>1</td><td>System is unavailable</td></tr><tr><td><mark style="color:blue;">(NEW v1.52.0)</mark><br>2</td><td>Stream disconnected</td></tr><tr><td>100</td><td>Missing or invalid parameter: [FieldName]</td></tr><tr><td>102</td><td>Single category should be sent</td></tr><tr><td>102</td><td>Wrong Sub Category</td></tr><tr><td>102</td><td>Strategies category should be sent</td></tr></tbody></table>
 
 ### **Samples**
 

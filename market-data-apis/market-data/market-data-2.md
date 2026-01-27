@@ -22,7 +22,7 @@ qualifier: v1/exchange.marketdata/liveTrades
 
 ### **Error Codes**
 
-<table><thead><tr><th width="93.27803690934905">Code</th><th width="554.4285714285713">Message</th></tr></thead><tbody><tr><td>1</td><td>System is unavailable</td></tr><tr><td>2</td><td>Missing fields: [Fieldname]</td></tr><tr><td>3</td><td>Wrong limit |<br>Wrong symbol [symbol] |</td></tr></tbody></table>
+<table><thead><tr><th width="93.27803690934905">Code</th><th width="554.4285714285713">Message</th></tr></thead><tbody><tr><td>1</td><td>System is unavailable</td></tr><tr><td>2</td><td>Missing fields: [Fieldname] |<br><mark style="color:blue;">(NEW v1.52.0)</mark> Stream disconnected</td></tr><tr><td>3</td><td>Wrong limit |<br>Wrong symbol [symbol] |</td></tr></tbody></table>
 
 ### **Samples**
 
