@@ -1,7 +1,5 @@
 # API Changes
 
-## v1.50.0 (2025-11-)
-
 * Added `lastPriceTimestamp` field to the `lightTickers`
 
 ## v1.47.0 (2025-09-25)
