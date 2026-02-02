@@ -1,5 +1,11 @@
 # API Changes
 
+## v1.52.0 (2026-02-03)
+
+Generic error message was added for all long living APIs `Stream disconnected`
+
+## v1.50.0 (2025-11-20)
+
 * Added `lastPriceTimestamp` field to the `lightTickers`
 
 ## v1.47.0 (2025-09-25)

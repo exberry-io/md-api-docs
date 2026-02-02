@@ -24,6 +24,8 @@ Similar to [this](https://docs.exberry.io/ws/market-data#auction-indicative-equi
 
 ### **Error Codes**
 
+<table><thead><tr><th width="155.111083984375">Code</th><th>Message</th></tr></thead><tbody><tr><td>1</td><td>System is unavailable</td></tr><tr><td>2</td><td>Missing fields: [Fieldname]<br><mark style="color:blue;">(NEW v1.52.0)</mark> Stream disconnected</td></tr><tr><td>3</td><td>Wrong interval | Wrong symbol [symbol] </td></tr></tbody></table>
+
 ### **Samples**
 
 {% tabs %}

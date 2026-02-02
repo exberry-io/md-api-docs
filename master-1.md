@@ -5,9 +5,11 @@ This section provides additional guidelines specific to the **Market Data API**.
 
 ## **Public Access Mode**
 
-In this mode, each request must include a **token** in addition to the standard parameters: `q`, `sid`, and `d`.
+In this mode, each request must include a **token** in addition to the standard parameters: `q`, `sid`, and `d`.&#x20;
 
 <table><thead><tr><th>Parameter</th><th width="89">Type</th><th>Description</th></tr></thead><tbody><tr><td>token</td><td>String</td><td>Token is configurable value per environment, it allows accurate and efficient instrument discovery. <br>Token generation described on the <a href="./">Introduction </a>section.</td></tr></tbody></table>
+
+Sample
 
 ```json
 {
@@ -23,7 +25,13 @@ In this mode, each request must include a **token** in addition to the standard 
 }
 ```
 
-<table><thead><tr><th width="169.57142857142856">Code</th><th>Message</th></tr></thead><tbody><tr><td>1</td><td>System is unavailable</td></tr><tr><td>2</td><td></td></tr><tr><td>3</td><td>Invalid token</td></tr></tbody></table>
+Generic Error Codes &#x20;
+
+<table><thead><tr><th width="169.57142857142856">Code</th><th>Message</th></tr></thead><tbody><tr><td>1</td><td>System is unavailable</td></tr><tr><td>2</td><td>Missing fields: token</td></tr><tr><td>3</td><td>Invalid token</td></tr></tbody></table>
+
+For long-lived streams, the following error message will be received if a disconnection occurs:
+
+<table><thead><tr><th width="169.57142857142856">Code</th><th>Message</th></tr></thead><tbody><tr><td>2</td><td>Stream disconnected </td></tr></tbody></table>
 
 ## **Authenticated Access Mode**
 
@@ -46,8 +54,6 @@ qualifier: v1/heartbeat/ping
 ### **Request Parameters**
 
 <table><thead><tr><th width="121.4">Parameter</th><th width="150">Type</th><th>Description</th></tr></thead><tbody><tr><td>d</td><td>Int</td><td>This value will be returned in the response.</td></tr></tbody></table>
-
-
 
 ### **Samples**
 
