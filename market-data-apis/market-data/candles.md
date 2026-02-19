@@ -63,7 +63,7 @@ Historical data qualifier: v1/exchange.marketdata.history/candles
 ```
 {% endtab %}
 
-{% tab title="Subscription (Hidotry)" %}
+{% tab title="Subscription (History)" %}
 ```json
 {
   "sid": 14,
