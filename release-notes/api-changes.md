@@ -1,8 +1,12 @@
 # API Changes
 
+## v1.54.0 (2026-03-17)
+
+* Changed the formula of `lightTickers/quoteVolume`  to support price multiplier&#x20;
+
 ## v1.52.0 (2026-02-03)
 
-Generic error message was added for all long living APIs `Stream disconnected`
+* Generic error message was added for all long living APIs `Stream disconnected`
 
 ## v1.50.0 (2025-11-20)
 
